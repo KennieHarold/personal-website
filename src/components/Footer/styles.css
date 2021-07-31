@@ -1,0 +1,19 @@
+#footer {
+  width: 100%;
+  background-color: #275A7B;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+}
+
+#footer__content {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#footer__content__icon-container:hover {
+  opacity: 0.8;
+}

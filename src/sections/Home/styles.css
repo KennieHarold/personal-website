@@ -1,0 +1,80 @@
+@import url("../../css/variables.css");
+
+#home {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--cover);
+}
+
+#home__grid {
+  height: 95%;
+}
+
+.home__grid__item {
+  text-align: center;
+  width: 95%;
+}
+
+#home__grid__item__text1,
+#home__grid__item__text2 {
+  color: white;
+}
+
+#home__grid__item__text3 {
+  color: #FA86C4;
+}
+
+#home__grid__item__text1 {
+  font-family: YellowTail, cursive;
+}
+
+#home__grid__item__text2 {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+#home__grid__item__text2 h2 {
+  font-family: 'Russo One', Cambria, Cochin;
+  text-transform: uppercase;
+  margin: 0px 10px 0px 10px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+#home__grid__item__text2 hr {
+  width: 10%;
+}
+
+#home__grid__item__text3 {
+  font-family: 'Single Day', Dosis, 'Arial Narrow', Arial, sans-serif;
+}
+
+#home__grid__item__img {
+  width: 100%;
+  margin-top: 3rem;
+}
+
+#home__grid__item__img img {
+  width: 200px;
+  height: 200px;
+}
+
+/* Media queries (Mobile devices) */
+@media only screen and (max-width: 411px) {
+  #home--kennie {
+    font-size: 2.15rem;
+  }
+  .home--hrs {
+    display: none;
+  }
+  #home__grid__item__text3 {
+    font-size: 1.7rem;
+  }
+  #home__grid__item__img img {
+    width: 175px;
+    height: 175px;
+  }
+}

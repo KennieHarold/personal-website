@@ -1,0 +1,42 @@
+@import url("../../css/variables.css");
+
+#contact {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: var(--body);
+}
+
+#contact__grid {
+  width: 95%;
+  margin-top: 46px;
+}
+
+#contact__grid__section-title {
+  width: 100%;
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+#contact__grid__content {
+  width: 50%;
+  margin-bottom: 100px;
+}
+
+#contact__grid__content__form {
+  width: 70%;
+}
+
+/* Media queries (Mobile devices) */
+@media only screen and (max-width: 411px) {
+  #contact__grid__content {
+    width: 100%;
+  }
+  #contact__grid__content__form {
+    width: 90%;
+  }
+  #contact--subtitle {
+    font-size: 1.25rem !important;
+  }
+}

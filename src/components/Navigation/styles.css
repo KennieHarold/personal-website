@@ -1,0 +1,82 @@
+@import url("../../css/variables.css");
+
+#navbar {
+  z-index: 1;
+  background-color: transparent;
+  position: fixed;
+  width: 100%;
+  padding: 15px 0px 15px 0px;
+  max-width: 1600px;
+  display: flex;
+}
+
+#navbar--mobile {
+  z-index: 1;
+  position: fixed;
+  width: 100%;
+  display: none;
+  background-color: var(--cover);
+  box-shadow: 1px 1px 5px 3px rgba(0, 0, 0, 0.2);
+  opacity: 0.93;
+}
+
+.navbar--shadowed {
+  box-shadow: 1px 1px 5px 3px rgba(0, 0, 0, 0.2);
+  opacity: 0.93;
+}
+
+.navbar--light {
+  background-color: var(--body) !important;
+  transition: background-color 0.4s;
+}
+.navbar--light-2 {
+  background-color: var(--body-2) !important;
+  transition: background-color 0.4s;
+}
+
+.navbar--dark {
+  background-color: var(--cover) !important;
+  transition: background-color 0.4s;
+}
+
+.navbar__grid {
+  scroll-behavior: smooth;
+}
+
+.navbar__grid__item {
+  font-size: 0.85rem;
+  margin: 0 2rem 0 2rem;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+
+.navbar__grid__item:hover {
+  color: var(--primary);
+}
+
+.navbar__grid__item--light {
+  color: white;
+}
+
+.navbar__grid__item--dark {
+  color: var(--readable-black);
+}
+
+.navbar__grid__item--selected {
+  color: var(--primary);
+}
+
+
+/* Media queries */
+@media only screen and (max-width: 768px) {
+  #navbar {
+    display: none;
+  }
+  #navbar--mobile {
+    display: flex;
+    justify-content: flex-end;
+  }
+}

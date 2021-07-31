@@ -1,0 +1,64 @@
+@import url("../../css/variables.css");
+
+#timeline {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: var(--body-2);
+}
+
+#timeline__grid {
+  width: 95%;
+  margin-top: 46px;
+  padding-bottom: 100px;
+}
+
+#timeline__grid__section-title {
+  width: 100%;
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+#timeline__grid__content {
+  width: 90%;
+}
+
+#timeline--paper {
+  display: flex;
+  flex-direction: row;
+}
+
+#timeline--divider {
+  background-color: #55CB97;
+  width: 15px;
+  border-radius: 10px 0 0 10px;
+}
+
+/* Media queries (Mobile devices) */
+@media only screen and (max-width: 411px) {
+  #timeline--separator {
+    display: none;
+  }
+  .MuiTimelineItem-root {
+    display: block !important;
+  }
+  .MuiTimeline-root {
+    padding: 0px 0px 0px 0px !important;
+  }
+  .MuiTimelineContent-root {
+    padding: 0px 0px 0px 0px !important;
+  }
+  #timeline__grid__content {
+    margin-top: -25px;
+  }
+  #timeline--paper {
+    margin-bottom: 15px;
+    flex-direction: column;
+  }
+  #timeline--divider {
+    width: 100%;
+    height: 15px;
+    border-radius: 10px 10px 0 0;
+  }
+}

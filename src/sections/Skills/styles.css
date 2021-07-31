@@ -1,0 +1,45 @@
+@import url("../../css/variables.css");
+
+#skills {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: var(--body);
+}
+
+#skills__grid {
+  width: 95%;
+  margin-top: 46px;
+  padding-bottom: 80px;
+}
+
+#skills__grid__section-title {
+  width: 100%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+#skills__grid__content {
+  width: 100%;
+}
+
+/* Media queries (Mobile devices) */
+@media only screen and (max-width: 411px) {
+  #skill--title-icon {
+    font-size: 25px !important;
+  }
+
+  #skill--icon {
+    font-size: 40px !important;
+  }
+
+  #skill--title {
+    font-size: 1rem;
+  }
+
+  #skill--paper {
+    width: 100% !important;
+    min-height: 300px !important;
+  }
+}

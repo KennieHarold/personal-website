@@ -1,0 +1,49 @@
+@import url("./variables.css");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#container {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: var(--primary);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(62, 159, 222, 0.8);
+}
+
+/* @media only screen and (max-width: 1200px) {
+  #unsupported-media {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+  }
+  #navbar,
+  #home,
+  #about,
+  #timeline,
+  #skills,
+  #portfolio,
+  #contact, 
+  #footer {
+    display: none !important;
+  }
+} */

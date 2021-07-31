@@ -1,0 +1,33 @@
+@import url("../../css/variables.css");
+
+#portfolio {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: var(--body-2);
+}
+
+#portfolio__grid {
+  width: 95%;
+  height: 100%;
+  margin-top: 46px;
+}
+
+#portfolio__grid__section-title {
+  width: 100%;
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+#portfolio__grid__content {
+  width: 100%;
+  margin-top: 125px;
+}
+
+/* Media queries (Mobile devices) */
+@media only screen and (max-width: 411px) {
+  #portfolio--comingsoon {
+    font-size: 3.5rem;
+  }
+}

@@ -1,0 +1,30 @@
+@import url("./variables.css");
+
+/* Timeline Section */
+.MuiTimelineConnector-root {
+  background-color: var(--primary) !important;
+}
+
+.MuiTimelineItem-alignAlternate .MuiTimelineItem-content {
+  text-align: left !important;
+}
+
+/* Skills Section */
+.MuiLinearProgress-root {
+  height: 18px !important;
+}
+
+/* Contact Section */
+.MuiButton-containedPrimary {
+  color: white !important;
+}
+
+/* Footer */
+.MuiFab-root {
+  box-shadow: none !important;
+}
+
+/* Paper */
+.MuiPaper-rounded {
+  border-radius: 10px !important;
+}
