@@ -132,10 +132,10 @@ const Timeline = () => {
                       //className={classes.timelineItemPaper}
                       elevation={3}
                     >
-                      <Box
+                      {/* <Box
                         id="timeline--divider"
-                        //className={classes.timelineItemDivider}
-                      />
+                        className={classes.timelineItemDivider}
+                      /> */}
                       <Box className={classes.timelineItemContainer}>
                         <Typography
                           className={classes.timelineItemTitle}
