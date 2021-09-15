@@ -51,6 +51,10 @@ const Contact = () => {
   const [alertStatus, setAlertStatus] = useState(false);
 
   const handleSendEmail = async () => {
+    if (clientEmail === "" || clientMessage === "") {
+      return;
+    }
+
     const url = "https://api.kennieharold.me/send-email";
     const data = {
       text: `Client Email: ${clientEmail}\nClient Name: ${clientName}\n\n${clientMessage}`,
