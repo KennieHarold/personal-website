@@ -142,10 +142,6 @@ const About = () => {
                 the tech industry, my passion still lives with me. I know
                 there's more knowledge to learn, more projects to build, and
                 more ReferenceError to debug, but it will be a happy adventure.
-                Skills: Web Development, Mobile Development Technologies: Node,
-                React, React Native, Firebase, Python Interested but not my
-                specialty: Machine/Deep learning, Blockchain P.S. I didn't use
-                C++ throughout my career :D
               </Typography>
             </Box>
           </Grid>

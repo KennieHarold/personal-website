@@ -19,7 +19,7 @@ const useStyles = makeStyles({
   },
   timelineItemTitle: {
     fontWeight: 700,
-    marginBottom: "2rem",
+    marginBottom: "1rem",
   },
   timelineItemInst: {
     fontWeight: 700,
@@ -39,23 +39,27 @@ const timelineItems = [
     desc: [
       {
         key: "timelineItem1-desc1",
-        text: "- Worked in Agile-driven environment to effectively maintain project timelines and utilize available resources.",
+        text: "- Work in Agile-driven environment to effectively maintain project timelines and utilize available resources.",
       },
       {
         key: "timelineItem1-desc2",
-        text: "- Designed responsive UI/UX layouts to meet usability and performance requirements.",
+        text: "- Design and build responsive UI interfaces with React framework that meets usability and performance requirements.",
       },
       {
         key: "timelineItem1-desc3",
-        text: "- Coded and maintained RESTful APIs using Node.js, Express.js for web applications and mobile applications.",
+        text: "- Build responsive static and dynamic web pages using HTML, CSS, Bootstrap, JQuery, SASS, and EJS.",
       },
       {
         key: "timelineItem1-desc4",
-        text: "- Wrote web scrapers to collect dress images data for a fashion recommender system.",
+        text: "- Coded RESTful APIs using Node.js and Express for web apps and mobile apps.",
       },
       {
         key: "timelineItem1-desc5",
-        text: "- Wrote and executed effective tests and carried out manual testing to assess website performance.",
+        text: "- Write web scrapers and gather dress images as training data to run through a fashion recommendation model.",
+      },
+      {
+        key: "timelineItem1-desc6",
+        text: "- Develop scalable features for mobile apps using React Native framework.",
       },
     ],
   },
@@ -67,11 +71,11 @@ const timelineItems = [
     desc: [
       {
         key: "timelineItem2-desc1",
-        text: "- Wrote web scrapers to collect house owner and property data for lead generation.",
+        text: "- Write web scrapers and gather real estate data for lead generation.",
       },
       {
         key: "timelineItem2-desc2",
-        text: "- Designed, built and maintained company's payroll system",
+        text: "- Design, build and maintain company's payroll system",
       },
     ],
   },

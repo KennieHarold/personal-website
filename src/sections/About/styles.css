@@ -55,4 +55,13 @@
   .about--graph-item {
     margin-bottom: 50px;
   }
+
+  .about--graph-item h4 {
+    margin-bottom: 0.5em;
+    font-size: 1.9rem !important;
+  }
+
+  .about--graph-item p {
+    font-size: 1rem !important;
+  }
 }

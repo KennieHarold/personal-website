@@ -1,21 +1,19 @@
-import appIcon from '@iconify/icons-ls/app';
+import appIcon from "@iconify/icons-ls/app";
 import fileTypeNode from "@iconify/icons-vscode-icons/file-type-node";
 import firebaseIcon from "@iconify/icons-logos/firebase";
 import reactIcon from "@iconify/icons-logos/react";
 import reduxIcon from "@iconify/icons-logos/redux";
-import laptopCode from '@iconify/icons-fa-solid/laptop-code';
-import fileTypeHtml from '@iconify/icons-vscode-icons/file-type-html';
-import nginxIcon from '@iconify/icons-logos/nginx';
-import fileTypeCss from '@iconify/icons-vscode-icons/file-type-css';
-import designIcon from '@iconify/icons-whh/design';
-import figmaIcon from '@iconify/icons-logos/figma';
-import fileTypePhotoshop from '@iconify/icons-vscode-icons/file-type-photoshop';
-import adobeXd from '@iconify/icons-file-icons/adobe-xd';
-import pencilIcon from '@iconify/icons-fxemoji/pencil';
-import brushIcon from '@iconify/icons-fa-solid/brush';
-import seleniumIcon from '@iconify/icons-logos/selenium';
-import pythonIcon from '@iconify/icons-logos/python';
-import googlesheetsIcon from '@iconify/icons-simple-icons/googlesheets';
+import laptopCode from "@iconify/icons-fa-solid/laptop-code";
+import fileTypeCss from "@iconify/icons-vscode-icons/file-type-css";
+import designIcon from "@iconify/icons-whh/design";
+import figmaIcon from "@iconify/icons-logos/figma";
+import fileTypePhotoshop from "@iconify/icons-vscode-icons/file-type-photoshop";
+import adobeXd from "@iconify/icons-file-icons/adobe-xd";
+import brushIcon from "@iconify/icons-fa-solid/brush";
+import seleniumIcon from "@iconify/icons-logos/selenium";
+import pythonIcon from "@iconify/icons-logos/python";
+import googlesheetsIcon from "@iconify/icons-simple-icons/googlesheets";
+import shopifyIcon from "@iconify/icons-logos/shopify";
 
 const skillItems = [
   {
@@ -58,16 +56,6 @@ const skillItems = [
         name: "React",
       },
       {
-        key: "webDevelopment-tool-html",
-        icon: fileTypeHtml,
-        name: "HTML",
-      },
-      {
-        key: "webDevelopment-tool-nginx",
-        icon: nginxIcon,
-        name: "Nginx",
-      },
-      {
         key: "webDevelopment-tool-node",
         icon: fileTypeNode,
         name: "Node",
@@ -77,11 +65,11 @@ const skillItems = [
         icon: fileTypeCss,
         name: "CSS",
       },
-      // {
-      //   key: "webDevelopment-tool-linode",
-      //   icon: linodeIcon,
-      //   name: "Linode",
-      // },
+      {
+        key: "webDevelopment-shopify",
+        icon: shopifyIcon,
+        name: "Shopify",
+      },
     ],
   },
   {
@@ -104,11 +92,6 @@ const skillItems = [
         key: "designing-tool-xd",
         icon: adobeXd,
         name: "Adobe XD",
-      },
-      {
-        key: "designing-tool-pencil",
-        icon: pencilIcon,
-        name: "Paper and Pencil",
       },
     ],
   },
