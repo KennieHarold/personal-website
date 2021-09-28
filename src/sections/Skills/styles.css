@@ -11,7 +11,6 @@
 #skills__grid {
   width: 95%;
   margin-top: 46px;
-  padding-bottom: 80px;
 }
 
 #skills__grid__section-title {
@@ -24,22 +23,17 @@
   width: 100%;
 }
 
-/* Media queries (Mobile devices) */
-@media only screen and (max-width: 411px) {
-  #skill--title-icon {
-    font-size: 25px !important;
-  }
+#skill-card {
+  padding: 1em;
+  margin: 1em;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  height: 75px;
+  align-items: center;
+}
 
-  #skill--icon {
-    font-size: 40px !important;
-  }
-
-  #skill--title {
-    font-size: 1rem;
-  }
-
-  #skill--paper {
-    width: 100% !important;
-    min-height: 300px !important;
-  }
+#skill-card h6 {
+  font-family: Roboto, sans-serif;
+  font-weight: 800;
 }
