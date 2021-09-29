@@ -130,18 +130,21 @@ const About = () => {
                 is the hardest programming language to learn?". For your
                 curiosity, Google says C++. Without hesitation, I quickly
                 started my laptop and began learning the language. It was easy
-                at first until I encountered pointers. My passion drives me to
-                chose Computer Science as my degree. I didn't waste my time
-                learning different languages and technologies. Most of my peers
-                have a collection of folders containing anime on their laptops,
-                while I have a collection of folders containing Indian tutorials
-                about programming. During that time, I created different
-                websites, mobile apps, desktop apps and joined in programming
-                competitions online. It drastically enhanced my programming
-                skills, most especially in designing algorithms. Now that I'm in
-                the tech industry, my passion still lives with me. I know
-                there's more knowledge to learn, more projects to build, and
-                more ReferenceError to debug, but it will be a happy adventure.
+                at first until I encountered pointers. <br />
+                <br />
+                My passion drives me to chose Computer Science as my degree. I
+                didn't waste my time learning different languages and
+                technologies. Most of my peers have a collection of folders
+                containing anime on their laptops, while I have a collection of
+                folders containing Indian tutorials about programming. During
+                that time, I created different websites, mobile apps, desktop
+                apps and joined in programming competitions online. It
+                drastically enhanced my programming skills, most especially in
+                designing algorithms. <br /> <br />
+                Now that I'm in the tech industry, my passion still lives with
+                me. I know there's more knowledge to learn, more projects to
+                build, and more ReferenceError to debug, but it will be a happy
+                adventure.
               </Typography>
             </Box>
           </Grid>

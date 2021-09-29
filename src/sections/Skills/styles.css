@@ -9,7 +9,7 @@
 }
 
 #skills__grid {
-  width: 95%;
+  width: 85%;
   margin-top: 46px;
 }
 
@@ -36,4 +36,10 @@
 #skill-card h6 {
   font-family: Roboto, sans-serif;
   font-weight: 800;
+}
+
+@media screen and (max-width: 411px) {
+  #skills__grid {
+    padding-bottom: 71px;
+  }
 }
