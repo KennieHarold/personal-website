@@ -55,13 +55,17 @@ const Contact = () => {
       return;
     }
 
-    const url = "https://api.kennieharold.me/send-email";
+    const url = process.env.REACT_APP_SEND_EMAIL_API_URI;
+    const apikey = process.env.REACT_APP_SEND_EMAIL_API_KEY;
+
     const data = {
-      text: `Client Email: ${clientEmail}\nClient Name: ${clientName}\n\n${clientMessage}`,
+      subject: "Personal Website Inquiry",
+      text: `Client's Email: ${clientEmail}\nClient's Name: ${clientName}\n\n${clientMessage}`,
     };
 
     const headers = new Headers();
     headers.append("Content-Type", "application/json");
+    headers.append("apikey", apikey);
 
     setEmailLoading(true);
 
