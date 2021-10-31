@@ -43,15 +43,15 @@ const timelineItems = [
       },
       {
         key: "timelineItem1-desc2",
-        text: "- Design and build responsive UI interfaces with React framework that meets usability and performance requirements.",
+        text: "- Design and build responsive UI interfaces that meets usability and performance requirements using React framework.",
       },
       {
         key: "timelineItem1-desc3",
-        text: "- Build responsive static and dynamic web pages using HTML, CSS, Bootstrap, JQuery, SASS, and EJS.",
+        text: "- Build responsive static and dynamic web pages using HTML5, CSS, Bootstrap, JQuery, and EJS.",
       },
       {
         key: "timelineItem1-desc4",
-        text: "- Coded RESTful APIs using Node.js and Express for web apps and mobile apps.",
+        text: "- Coded RESTful APIs using Node.js and Express for web and mobile applications.",
       },
       {
         key: "timelineItem1-desc5",
@@ -59,7 +59,11 @@ const timelineItems = [
       },
       {
         key: "timelineItem1-desc6",
-        text: "- Develop scalable features for mobile apps using React Native framework.",
+        text: "- Develop scalable features for mobile apps using React Native framework and Firebase.",
+      },
+      {
+        key: "timelineItem1-desc7",
+        text: "- Write smart contracts on Ethereum blockchain with Solidity and Truffle Suite.",
       },
     ],
   },
@@ -71,7 +75,7 @@ const timelineItems = [
     desc: [
       {
         key: "timelineItem2-desc1",
-        text: "- Write web scrapers and gather real estate data for lead generation.",
+        text: "- Write web scrapers to gather real estate data for lead generation.",
       },
       {
         key: "timelineItem2-desc2",

@@ -18,6 +18,14 @@ const skillItems = [
     },
   },
   {
+    key: "skill-react-native",
+    icon: reactIcon,
+    name: "React Native",
+    styles: {
+      marginRight: 15,
+    },
+  },
+  {
     key: "skill-redux",
     icon: reduxIcon,
     name: "Redux",
@@ -40,14 +48,6 @@ const skillItems = [
     styles: {
       marginRight: 7,
       color: "#0FA24C",
-    },
-  },
-  {
-    key: "skill-react-native",
-    icon: reactIcon,
-    name: "React Native",
-    styles: {
-      marginRight: 15,
     },
   },
   {

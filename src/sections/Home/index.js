@@ -40,7 +40,7 @@ const Home = () => {
             <hr className="home--hrs" />
           </Box>
           <Typography id="home__grid__item__text3" variant="h4">
-            I'm a software developer and I create beautiful apps
+            I'm a software developer and I create amazing apps
           </Typography>
           <Box
             id="home__grid__item__img"

@@ -41,7 +41,7 @@ const Skills = () => {
                 sm={6}
                 xs={12}
               >
-                <Paper id="skill-card" key={skillItem.key}>
+                <Paper id="skill-card">
                   <Icon
                     icon={skillItem.icon}
                     style={{ fontSize: 50, ...skillItem.styles }}

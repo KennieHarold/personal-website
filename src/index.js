@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./css/defaults.css";
 import "./css/overides.css";
+import "animate.css";
 import App from "./app";
 
 ReactDOM.render(
