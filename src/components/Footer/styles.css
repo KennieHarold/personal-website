@@ -1,6 +1,8 @@
+@import url("../../css/variables.css");
+
 #footer {
   width: 100%;
-  background-color: #275A7B;
+  background-color: var(--cover);
   height: 40vh;
   display: flex;
   justify-content: center;

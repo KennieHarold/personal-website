@@ -6,6 +6,7 @@ import "./styles.css";
 const Home = () => {
   return (
     <section id="home">
+      <div id="pt" className="canvas"></div>
       <Grid
         id="home__grid"
         container
@@ -32,11 +33,11 @@ const Home = () => {
             justifyContent="center"
             alignItems="center"
           >
-            <hr className='home--hrs' />
+            <hr className="home--hrs" />
             <Typography id="home--kennie" variant="h2">
               Kennie Harold
             </Typography>
-            <hr className='home--hrs' />
+            <hr className="home--hrs" />
           </Box>
           <Typography id="home__grid__item__text3" variant="h4">
             I'm a software developer and I create beautiful apps

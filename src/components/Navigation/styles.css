@@ -34,6 +34,10 @@
   transition: background-color 0.4s;
 }
 
+.navbar--transparent {
+  background-color: transparent;
+}
+
 .navbar--dark {
   background-color: var(--cover) !important;
   transition: background-color 0.4s;

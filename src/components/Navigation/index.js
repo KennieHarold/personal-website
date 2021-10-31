@@ -7,6 +7,7 @@ const Navigation = () => {
   const [selectedItem, setSelectedItem] = useState("home");
   const [isHome, setIsHome] = useState(true);
   const [isShadowedNavBar, setIsShadowedNavBar] = useState(false);
+  const [isTopPage, setIsTopPage] = useState(false);
 
   const headerItems = [
     "home",
@@ -68,6 +69,12 @@ const Navigation = () => {
       section = "contact";
     }
 
+    if (roundedY <= 0) {
+      setIsTopPage(true);
+    } else {
+      setIsTopPage(false);
+    }
+
     setIsHome(section === "home" ? true : false);
     setSelectedItem(section);
   };
@@ -83,7 +90,7 @@ const Navigation = () => {
     const roundedY = Math.round(window.scrollY);
 
     if (
-      roundedY > homeSectionId.offsetTop + 130 &&
+      roundedY > homeSectionId.offsetTop + 20 &&
       roundedY < aboutSectionId.offsetTop
     ) {
       setIsShadowedNavBar(true);
@@ -135,7 +142,11 @@ const Navigation = () => {
       classNames.push("navbar--shadowed");
     }
     if (isHome) {
-      classNames.push("navbar--dark");
+      if (isTopPage) {
+        classNames.push("navbar--transparent");
+      } else {
+        classNames.push("navbar--dark");
+      }
     } else {
       if (selectedItem === "timeline" || selectedItem === "portfolio") {
         classNames.push("navbar--light-2");
@@ -170,10 +181,7 @@ const Navigation = () => {
           ))}
         </Grid>
       </nav>
-      <MobileNavbar
-        headerItems={headerItems} 
-        isHome={isHome} 
-      />
+      <MobileNavbar headerItems={headerItems} isHome={isHome} />
     </>
   );
 };
