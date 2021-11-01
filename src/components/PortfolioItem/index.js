@@ -4,12 +4,30 @@ import "./styles.css";
 
 const PortfolioItem = ({ id, imgData, title, tech }) => {
   const animate = () => {
-    const cover = document.getElementById(id);
+    const cover = document.querySelector(`#${id}`);
+    const profileItemText = document.querySelector(`#${id} > div`);
+    const learnMoreButton = document.querySelector(`#${id} > button`);
+
+    profileItemText.classList.remove("animate-exit-profile-item-text");
+    profileItemText.classList.add("animate-entrance-profile-item-text");
+
+    learnMoreButton.classList.remove("animate-exit-learn-more-button");
+    learnMoreButton.classList.add("animate-entrance-learn-more-button");
+
     cover.style.opacity = 1;
   };
 
   const removeAnimate = () => {
-    const cover = document.getElementById(id);
+    const cover = document.querySelector(`#${id}`);
+    const profileItemText = document.querySelector(`#${id} > div`);
+    const learnMoreButton = document.querySelector(`#${id} > button`);
+
+    profileItemText.classList.remove("animate-entrance-profile-item-text");
+    profileItemText.classList.add("animate-exit-profile-item-text");
+
+    learnMoreButton.classList.remove("animate-entrance-learn-more-button");
+    learnMoreButton.classList.add("animate-exit-learn-more-button");
+
     cover.style.opacity = 0;
   };
 
@@ -24,13 +42,7 @@ const PortfolioItem = ({ id, imgData, title, tech }) => {
       }}
     >
       <div id={id} className="portfolio-cover">
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            alignItems: "center",
-          }}
-        >
+        <div className="profile-item-text">
           <Typography variant="label" className="profile-item-title">
             {title}
           </Typography>
@@ -38,7 +50,11 @@ const PortfolioItem = ({ id, imgData, title, tech }) => {
             {tech}
           </Typography>
         </div>
-        <Button color="primary" variant="outlined">
+        <Button
+          className="profile-item-learn-more"
+          color="secondary"
+          variant="outlined"
+        >
           Learn More
         </Button>
       </div>

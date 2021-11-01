@@ -66,7 +66,7 @@ const Footer = () => {
         <Fab
           onClick={() => window.scrollTo(0, 0)}
           className={classes.footerFab}
-          color="secondary"
+          style={{ background: "#55CB97" }}
         >
           <Icon className={classes.footerFabIcon} icon={arrowheadUpOutline} />
         </Fab>

@@ -28,6 +28,16 @@
   width: 70%;
 }
 
+/* Media queries (1200px devices) */
+@media only screen and (max-width: 1200px) {
+  #contact__grid__content {
+    width: 80%;
+  }
+  #contact__grid__content__form {
+    width: 70%;
+  }
+}
+
 /* Media queries (Mobile devices) */
 @media only screen and (max-width: 411px) {
   #contact__grid__content {
@@ -37,6 +47,7 @@
     width: 90%;
   }
   #contact--subtitle {
+    width: 90%;
     font-size: 1.25rem !important;
   }
 }
