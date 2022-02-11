@@ -58,20 +58,17 @@
   #about--circles {
     margin-bottom: 20px;
   }
-  /* #about--profile {
-    height: 175px;
-    width: 175px;
-  } */
+
   .about--graph-item {
     margin-bottom: 50px;
   }
 
-  .about--graph-item h4 {
+  .about--graph-item #about--circle-title {
     margin-bottom: 0.5em;
-    font-size: 1.9rem !important;
+    font-size: 1.6rem !important;
   }
 
-  .about--graph-item p {
-    font-size: 1rem !important;
+  .about--graph-item #about--circle-caption {
+    font-size: 0.95rem !important;
   }
 }

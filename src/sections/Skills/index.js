@@ -44,7 +44,7 @@ const Skills = () => {
                 <Paper id="skill-card">
                   <Icon
                     icon={skillItem.icon}
-                    style={{ fontSize: 50, ...skillItem.styles }}
+                    style={{ fontSize: 44, ...skillItem.styles }}
                   />
                   <Typography variant="h6">{skillItem.name}</Typography>
                 </Paper>

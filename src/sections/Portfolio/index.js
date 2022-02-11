@@ -5,9 +5,10 @@ import { colorTheme } from "../../styles/themes";
 import SectionTitle from "../../components/SectionTitle";
 import PortfolioItem from "../../components/PortfolioItem";
 import "./styles.css";
-import gocart from "../../assets/gocart.png";
+import gocart from "../../assets/gocart.jpg";
 import lazymugss from "../../assets/lazymugss.png";
-import candid from "../../assets/candid.png";
+import findisport from "../../assets/findisport.png";
+import powerfanStaking from "../../assets/powerfan-staking.png";
 
 const portfolioItems = [
   {
@@ -25,11 +26,18 @@ const portfolioItems = [
     tech: "Shopify / Javascript",
   },
   {
-    id: "portfolio-candid",
-    key: "portfolio-candid",
-    title: "Candid Bills",
-    imgData: candid,
-    tech: "React / Python",
+    id: "portfolio-findisport",
+    key: "portfolio-findisport",
+    title: "FindiSport",
+    imgData: findisport,
+    tech: "React Native / Python / Firebase",
+  },
+  {
+    id: "portfolio-powerfan-staking",
+    key: "portfolio-powerfan-staking",
+    title: "PowerFan Staking",
+    imgData: powerfanStaking,
+    tech: "Node / Javascript / Ethereum",
   },
 ];
 

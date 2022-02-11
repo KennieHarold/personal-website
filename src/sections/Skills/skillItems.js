@@ -1,36 +1,22 @@
 import fileTypeNode from "@iconify/icons-vscode-icons/file-type-node";
 import firebaseIcon from "@iconify/icons-logos/firebase";
 import reactIcon from "@iconify/icons-logos/react";
-import reduxIcon from "@iconify/icons-logos/redux";
 import fileTypeCss from "@iconify/icons-vscode-icons/file-type-css";
 import pythonIcon from "@iconify/icons-logos/python";
 import shopifyIcon from "@iconify/icons-logos/shopify";
 import mongodbIcon from "@iconify/icons-simple-icons/mongodb";
+import ethereum from "@iconify/icons-logos/ethereum";
 import fileTypeLightSolidity from "@iconify/icons-vscode-icons/file-type-light-solidity";
+import hardhatIcon from "@iconify/icons-logos/hardhat-icon";
+import web3js from "@iconify/icons-logos/web3js";
 
 const skillItems = [
   {
     key: "skill-react",
     icon: reactIcon,
-    name: "React",
+    name: "React / React Native",
     styles: {
       marginRight: 15,
-    },
-  },
-  {
-    key: "skill-react-native",
-    icon: reactIcon,
-    name: "React Native",
-    styles: {
-      marginRight: 15,
-    },
-  },
-  {
-    key: "skill-redux",
-    icon: reduxIcon,
-    name: "Redux",
-    styles: {
-      marginRight: 18,
     },
   },
   {
@@ -83,9 +69,33 @@ const skillItems = [
     },
   },
   {
+    key: "skill-ethereum",
+    icon: ethereum,
+    name: "Ethereum",
+    styles: {
+      marginRight: 15,
+    },
+  },
+  {
     key: "skill-solidity",
     icon: fileTypeLightSolidity,
     name: "Solidity",
+    styles: {
+      marginRight: 15,
+    },
+  },
+  {
+    key: "skill-hardhat",
+    icon: hardhatIcon,
+    name: "Hardhat",
+    styles: {
+      marginRight: 15,
+    },
+  },
+  {
+    key: "skill-web3",
+    icon: web3js,
+    name: "Web3",
     styles: {
       marginRight: 15,
     },

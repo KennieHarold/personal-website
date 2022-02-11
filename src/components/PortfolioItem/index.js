@@ -46,7 +46,11 @@ const PortfolioItem = ({ id, imgData, title, tech }) => {
           <Typography variant="label" className="profile-item-title">
             {title}
           </Typography>
-          <Typography variant="label" className="profile-item-tech">
+          <Typography
+            variant="label"
+            className="profile-item-tech"
+            style={{ textAlign: "center" }}
+          >
             {tech}
           </Typography>
         </div>

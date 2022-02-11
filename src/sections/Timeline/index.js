@@ -33,37 +33,21 @@ const useStyles = makeStyles({
 const timelineItems = [
   {
     key: "timelineItem1",
-    title: "Software Developer",
+    title: "Software Developer / Blockchain Developer",
     inst: "Stacktrek Enterprise, Iloilo City",
     date: "July 2019 - Present",
     desc: [
       {
         key: "timelineItem1-desc1",
-        text: "- Work in Agile-driven environment to effectively maintain project timelines and utilize available resources.",
+        text: "- Work in Agile-driven environment to effectively maintain project timelines and utilize available resources",
       },
       {
         key: "timelineItem1-desc2",
-        text: "- Design and build responsive UI interfaces that meets usability and performance requirements using React framework.",
-      },
-      {
-        key: "timelineItem1-desc3",
-        text: "- Build responsive static and dynamic web pages using HTML5, CSS, Bootstrap, JQuery, and EJS.",
-      },
-      {
-        key: "timelineItem1-desc4",
-        text: "- Coded RESTful APIs using Node.js and Express for web and mobile applications.",
-      },
-      {
-        key: "timelineItem1-desc5",
-        text: "- Write web scrapers and gather dress images as training data to run through a fashion recommendation model.",
-      },
-      {
-        key: "timelineItem1-desc6",
-        text: "- Develop scalable features for mobile apps using React Native framework and Firebase.",
+        text: "- Design, develop and test scalable mobile and web apps that meets client's requirements using MERN Stack, Firebase, and React Native ",
       },
       {
         key: "timelineItem1-desc7",
-        text: "- Write smart contracts on Ethereum blockchain with Solidity and Truffle Suite.",
+        text: "- Write smart contracts including ERC20, ERC721 and ERC1155 specifications on Ethereum blockchain with Solidity, Hardhat, and Web3",
       },
     ],
   },
@@ -75,7 +59,7 @@ const timelineItems = [
     desc: [
       {
         key: "timelineItem2-desc1",
-        text: "- Write web scrapers to gather real estate data for lead generation.",
+        text: "- Write web scrapers to gather real estate data for lead generation",
       },
       {
         key: "timelineItem2-desc2",

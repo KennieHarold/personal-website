@@ -7,8 +7,8 @@ import "./styles.css";
 
 const useStyles = makeStyles({
   aboutProfilePicture: {
-    height: 200,
-    width: 200,
+    height: 175,
+    width: 175,
   },
   aboutWhoAmI: {
     marginTop: 20,
@@ -16,7 +16,7 @@ const useStyles = makeStyles({
     fontFamily: "Roboto, sans-serif",
   },
   aboutDesc: {
-    fontSize: "1rem",
+    fontSize: "0.9rem",
     textAlign: "left",
     marginTop: 10,
     fontFamily: "Open Sans, Arial, Helvetica, sans-serif",
@@ -26,10 +26,11 @@ const useStyles = makeStyles({
     width: "100%",
     fontFamily: "Roboto, sans-serif !important",
     fontWeight: "bolder !important",
+    fontSize: "1.9rem !important",
   },
   aboutCircleCaptions: {
     width: "100%",
-    fontSize: "1.1rem !important",
+    fontSize: "1.05rem !important",
     fontFamily: "Open Sans, Arial, Helvetica, sans-serif !important",
     paddingLeft: 15,
     paddingRight: 15,
@@ -49,9 +50,9 @@ const graphItems = [
     key: "about__grid__content__grid__graph__item__skill",
     title: "Skill",
     caption:
-      "Two year dedicated software developer manage to earn problem solving skills with excellent time management and organizational skills.",
+      "3-year dedicated software developer manage to earn problem solving skills with excellent time management and organizational skills.",
     circleColor: "#55CB97",
-    circleRate: 50,
+    circleRate: 80,
   },
   {
     key: "about__grid__content__grid__graph__item__passion",
@@ -189,13 +190,14 @@ const About = () => {
                   </Grid>
                   <Grid container item lg={9} style={{ textAlign: "center" }}>
                     <Typography
+                      id="about--circle-title"
                       className={classes.aboutCircleTitles}
-                      variant="h4"
                       color="primary"
                     >
                       {graphItem.title}
                     </Typography>
                     <Typography
+                      id="about--circle-caption"
                       className={classes.aboutCircleCaptions}
                       color="textSecondary"
                     >
