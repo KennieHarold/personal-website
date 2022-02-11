@@ -39,6 +39,7 @@ const PortfolioItem = ({ id, imgData, title, tech }) => {
       style={{
         width: "31%",
         position: "relative",
+        display: "flex",
       }}
     >
       <div id={id} className="portfolio-cover">

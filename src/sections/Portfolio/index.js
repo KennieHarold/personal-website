@@ -9,6 +9,8 @@ import gocart from "../../assets/gocart.jpg";
 import lazymugss from "../../assets/lazymugss.png";
 import findisport from "../../assets/findisport.png";
 import powerfanStaking from "../../assets/powerfan-staking.png";
+import capsule from "../../assets/capsule.png";
+import ova from "../../assets/ova.png";
 
 const portfolioItems = [
   {
@@ -17,6 +19,13 @@ const portfolioItems = [
     title: "GoCart Iloilo",
     imgData: gocart,
     tech: "React Native / Firebase",
+  },
+  {
+    id: "portfolio-powerfan-staking",
+    key: "portfolio-powerfan-staking",
+    title: "PowerFan Staking",
+    imgData: powerfanStaking,
+    tech: "Node / Javascript / Ethereum",
   },
   {
     id: "portfolio-lazymugss",
@@ -33,11 +42,18 @@ const portfolioItems = [
     tech: "React Native / Python / Firebase",
   },
   {
-    id: "portfolio-powerfan-staking",
-    key: "portfolio-powerfan-staking",
-    title: "PowerFan Staking",
-    imgData: powerfanStaking,
-    tech: "Node / Javascript / Ethereum",
+    id: "portfolio-capsule",
+    key: "portfolio-capsule",
+    title: "Capsule",
+    imgData: capsule,
+    tech: "React JS",
+  },
+  {
+    id: "portfolio-ova",
+    key: "portfolio-ova",
+    title: "OVA Payroll",
+    imgData: ova,
+    tech: "React JS / Firebase",
   },
 ];
 
