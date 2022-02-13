@@ -25,10 +25,20 @@
   margin-top: 125px;
 }
 
+@media only screen and (max-width: 1200px) {
+  #portfolio__modal-body {
+    width: 50% !important;
+  }
+}
+
 /* Media queries (Mobile devices) */
 @media only screen and (max-width: 920px) {
   .portfolio-img {
     width: 47% !important;
+  }
+
+  #portfolio__modal-body {
+    width: 100% !important;
   }
 }
 

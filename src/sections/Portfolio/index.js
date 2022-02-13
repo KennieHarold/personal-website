@@ -17,11 +17,33 @@ import gocart2 from "../../assets/gocart-2.png";
 import gocart3 from "../../assets/gocart-3.png";
 import gocart4 from "../../assets/gocart-4.png";
 
-import lazymugss from "../../assets/lazymugss.png";
-import findisport from "../../assets/findisport.png";
 import powerfanStaking from "../../assets/powerfan-staking.png";
+import powerfanStaking1 from "../../assets/powerfan-staking-1.png";
+import powerfanStaking2 from "../../assets/powerfan-staking-2.png";
+
+import lazymugss from "../../assets/lazymugss.png";
+import lazymugss1 from "../../assets/lazymugss-1.png";
+import lazymugss2 from "../../assets/lazymugss-2.png";
+import lazymugss3 from "../../assets/lazymugss-3.png";
+
+import findisport from "../../assets/findisport.png";
+import findisport1 from "../../assets/findisport-1.png";
+import findisport2 from "../../assets/findisport-2.png";
+import findisport3 from "../../assets/findisport-3.png";
+import findisport4 from "../../assets/findisport-4.png";
+import findisport5 from "../../assets/findisport-5.png";
+import findisport6 from "../../assets/findisport-6.png";
+
 import capsule from "../../assets/capsule.png";
+import capsule1 from "../../assets/capsule-1.png";
+import capsule2 from "../../assets/capsule-2.png";
+import capsule3 from "../../assets/capsule-3.png";
+import capsule4 from "../../assets/capsule-4.png";
+
 import ova from "../../assets/ova.png";
+import ova1 from "../../assets/ova-1.jpg";
+import ova2 from "../../assets/ova-2.png";
+import ova3 from "../../assets/ova-3.png";
 
 const portfolioItems = [
   {
@@ -33,6 +55,7 @@ const portfolioItems = [
     type: "Online Grocery App",
     desc: "GoCart Iloilo is an online grocery delivery service that aims to ensure fast, convenient, and safe delivery of groceries right at your doorstep.",
     link: "https://play.google.com/store/apps/details?id=com.gocartiloilo",
+    imgList: [gocart1, gocart2, gocart3, gocart4],
   },
   {
     id: "portfolio-powerfan-staking",
@@ -43,6 +66,7 @@ const portfolioItems = [
     type: "Staking Platform",
     desc: "PowerFan Staking is a multi-chain platform that incentivizes investors by providing PFAN/ETH liquidity on Uniswap",
     link: "https://powerfan.io/staking",
+    imgList: [powerfanStaking1, powerfanStaking2],
   },
   {
     id: "portfolio-lazymugss",
@@ -53,6 +77,7 @@ const portfolioItems = [
     type: "Ecommerce Website",
     desc: "Lazymugss is a dropshipping website of high quality self-stirring mugs with PayPal integration and realtime parcel tracker",
     link: "https://lazymugss.com",
+    imgList: [lazymugss1, lazymugss2, lazymugss3],
   },
   {
     id: "portfolio-findisport",
@@ -64,6 +89,14 @@ const portfolioItems = [
     desc: "FindiSport is a one-stop platform for sports activities and coach pairing, which helps students to find the right coach in any kind of sport, making exercise and learning easier",
     subtitle: "- Contributed as a mobile app developer",
     link: "https://play.google.com/store/apps/details?id=com.findi",
+    imgList: [
+      findisport1,
+      findisport2,
+      findisport3,
+      findisport4,
+      findisport5,
+      findisport6,
+    ],
   },
   {
     id: "portfolio-capsule",
@@ -71,9 +104,10 @@ const portfolioItems = [
     title: "Capsule",
     imgData: capsule,
     tech: "React JS",
-    type: "Wardrobe Recommendation System",
+    type: "Virtual Online Closet with Recommender System",
     desc: "Capsule is a virtual online closet that curates your personalized virtual wardrobe using a machine learning algorithm",
     subtitle: "- Contributed as a frontend developer",
+    imgList: [capsule1, capsule2, capsule3, capsule4],
   },
   {
     id: "portfolio-ova",
@@ -83,6 +117,7 @@ const portfolioItems = [
     tech: "React JS / Firebase",
     type: "Payroll System",
     desc: "OVA Payroll is a platform that allows employees to track their attendance by timing in and timing out, submit daily reports, request leaves, and view payslips",
+    imgList: [ova1, ova2, ova3],
   },
 ];
 
@@ -175,12 +210,11 @@ const Portfolio = () => {
                 showThumbs={false}
                 dynamicHeight={false}
               >
-                <img src={gocart1} />
-                <img src={gocart4} />
-                <img src={gocart2} />
-                <img src={gocart3} />
+                {portfolioItems[portfolioIndex].imgList.map((img, index) => (
+                  <img key={`portfolio-img-${index}`} src={img} />
+                ))}
               </Carousel>
-              <Box style={{ padding: "1.5em" }}>
+              <Box style={{ padding: "1.5em", borderTop: "2px solid black" }}>
                 <Box
                   style={{
                     fontFamily: "Open Sans, Arial, Helvetica, sans-serif",
