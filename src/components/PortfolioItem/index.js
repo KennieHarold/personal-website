@@ -2,7 +2,7 @@ import React from "react";
 import { Button, Typography } from "@material-ui/core";
 import "./styles.css";
 
-const PortfolioItem = ({ id, imgData, title, tech }) => {
+const PortfolioItem = ({ id, imgData, title, tech, learnMore }) => {
   const animate = () => {
     const cover = document.querySelector(`#${id}`);
     const profileItemText = document.querySelector(`#${id} > div`);
@@ -59,6 +59,7 @@ const PortfolioItem = ({ id, imgData, title, tech }) => {
           className="profile-item-learn-more"
           color="secondary"
           variant="outlined"
+          onClick={learnMore}
         >
           Learn More
         </Button>
