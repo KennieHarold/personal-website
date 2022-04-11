@@ -12,7 +12,7 @@ import "./styles.css";
 
 //  Image assets
 import gocart from "../../assets/gocart.jpg";
-import gocart1 from "../../assets/gocart-1.png";
+// import gocart1 from "../../assets/gocart-1.png";
 import gocart2 from "../../assets/gocart-2.png";
 import gocart3 from "../../assets/gocart-3.png";
 import gocart4 from "../../assets/gocart-4.png";
@@ -20,11 +20,12 @@ import gocart4 from "../../assets/gocart-4.png";
 import powerfanStaking from "../../assets/powerfan-staking.png";
 import powerfanStaking1 from "../../assets/powerfan-staking-1.png";
 import powerfanStaking2 from "../../assets/powerfan-staking-2.png";
+import powerfanStaking3 from "../../assets/powerfan-staking-3.png";
 
 import lazymugss from "../../assets/lazymugss.png";
-import lazymugss1 from "../../assets/lazymugss-1.png";
-import lazymugss2 from "../../assets/lazymugss-2.png";
-import lazymugss3 from "../../assets/lazymugss-3.png";
+// import lazymugss1 from "../../assets/lazymugss-1.png";
+// import lazymugss2 from "../../assets/lazymugss-2.png";
+// import lazymugss3 from "../../assets/lazymugss-3.png";
 
 import findisport from "../../assets/findisport.png";
 import findisport1 from "../../assets/findisport-1.png";
@@ -55,7 +56,7 @@ const portfolioItems = [
     type: "Online Grocery App",
     desc: "GoCart Iloilo is an online grocery delivery service that aims to ensure fast, convenient, and safe delivery of groceries right at your doorstep.",
     link: "https://play.google.com/store/apps/details?id=com.gocartiloilo",
-    imgList: [gocart1, gocart2, gocart3, gocart4],
+    imgList: [gocart2, gocart3, gocart4],
   },
   {
     id: "portfolio-powerfan-staking",
@@ -66,7 +67,7 @@ const portfolioItems = [
     type: "Staking Platform",
     desc: "PowerFan Staking is a multi-chain platform that incentivizes investors by providing PFAN/ETH liquidity on Uniswap",
     link: "https://powerfan.io/staking",
-    imgList: [powerfanStaking1, powerfanStaking2],
+    imgList: [powerfanStaking1, powerfanStaking2, powerfanStaking3],
   },
   {
     id: "portfolio-lazymugss",
@@ -77,7 +78,7 @@ const portfolioItems = [
     type: "Ecommerce Website",
     desc: "Lazymugss is a dropshipping website of high quality self-stirring mugs with PayPal integration and realtime parcel tracker",
     link: "https://lazymugss.com",
-    imgList: [lazymugss1, lazymugss2, lazymugss3],
+    imgList: [lazymugss],
   },
   {
     id: "portfolio-findisport",
@@ -211,7 +212,7 @@ const Portfolio = () => {
                 dynamicHeight={false}
               >
                 {portfolioItems[portfolioIndex].imgList.map((img, index) => (
-                  <img key={`portfolio-img-${index}`} src={img} />
+                  <img key={`portfolio-img-${index}`} src={img} style={{ minHeight: "400px" }}/>
                 ))}
               </Carousel>
               <Box style={{ padding: "1.5em", borderTop: "2px solid black" }}>

@@ -9,11 +9,6 @@ html {
   scroll-behavior: smooth;
 }
 
-#container {
-  max-width: 1600px;
-  margin: 0 auto;
-}
-
 ::-webkit-scrollbar {
   width: 10px;
 }

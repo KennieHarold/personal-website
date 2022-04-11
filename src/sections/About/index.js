@@ -16,7 +16,7 @@ const useStyles = makeStyles({
     fontFamily: "Roboto, sans-serif",
   },
   aboutDesc: {
-    fontSize: "0.9rem",
+    fontSize: "1rem",
     textAlign: "left",
     marginTop: 10,
     fontFamily: "Open Sans, Arial, Helvetica, sans-serif",
@@ -124,28 +124,26 @@ const About = () => {
                 color="textSecondary"
               >
                 I remember the day at high school when I successfully run my
-                first script written in batch. It is a quiz app containing ten
+                first script written in Batch. It is a quiz app containing ten
                 items and saves your highest score to a file. I was fascinated
                 by how a simple notepad file can do amazing things. On that day,
-                I discovered programming and started searching on Google, "What
-                is the hardest programming language to learn?". For your
-                curiosity, Google says C++. Without hesitation, I quickly
-                started my laptop and began learning the language. It was easy
-                at first until I encountered pointers. <br />
-                <br />
-                My passion drives me to chose Computer Science as my degree. I
-                didn't waste my time learning different languages and
-                technologies. Most of my peers have a collection of folders
-                containing anime on their laptops, while I have a collection of
-                folders containing Indian tutorials about programming. During
-                that time, I created different websites, mobile apps, desktop
-                apps and joined in programming competitions online. It
+                I discovered programming and start searching on Google, "What is
+                the hardest programming language to learn?". For your curiosity,
+                Google says C++. Without hesitation, I quickly started my laptop
+                and began learning the language. It was easy at first until I
+                encountered pointers. :D <br />
+                <br /> My passion drives me to choose Computer Science as my
+                degree. I didn't waste my time learning different languages and
+                frameworks. Most of my friends have a collection of anime shows
+                on their laptops, while I have a collection of Indian tutorials
+                about programming. I created different websites, mobile apps,
+                and desktop apps and joined programming competitions online. It
                 drastically enhanced my programming skills, most especially in
-                designing algorithms. <br /> <br />
-                Now that I'm in the tech industry, my passion still lives with
-                me. I know there's more knowledge to learn, more projects to
-                build, and more ReferenceError to debug, but it will be a happy
-                adventure.
+                designing algorithms. <br />
+                <br /> Now that I'm in the tech industry, my passion still lives
+                with me. I know there are more technologies to learn, more
+                projects to build, more documentations to read, and more bugs to
+                debug, but it will be awesome.
               </Typography>
             </Box>
           </Grid>

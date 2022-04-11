@@ -39,11 +39,11 @@ const timelineItems = [
     desc: [
       {
         key: "timelineItem1-desc1",
-        text: "- Work in Agile-driven environment to effectively maintain project timelines and utilize available resources",
+        text: "- Worked in an Agile-driven environment to effectively maintain project timelines and utilize available resources",
       },
       {
         key: "timelineItem1-desc2",
-        text: "- Design, develop and test scalable mobile and web apps that meets client's requirements using MERN Stack, Firebase, and React Native ",
+        text: "- Worked and collaborated with a group of software engineers on designing, researching, testing, and maintaining software for clients, either web-based or mobile-based. Communicated closely with the client to give updates on the task",
       },
       {
         key: "timelineItem1-desc7",
@@ -59,11 +59,11 @@ const timelineItems = [
     desc: [
       {
         key: "timelineItem2-desc1",
-        text: "- Write web scrapers to gather real estate data for lead generation",
+        text: "- Wrote web scrapers to gather real estate data for lead generation",
       },
       {
         key: "timelineItem2-desc2",
-        text: "- Design, build and maintain company's payroll system",
+        text: "- Worked on designing, building, and maintaining the company's payroll system",
       },
     ],
   },

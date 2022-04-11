@@ -11,6 +11,7 @@
 #contact__grid {
   width: 95%;
   margin-top: 46px;
+  max-width: 1600px;
 }
 
 #contact__grid__section-title {
