@@ -67,11 +67,11 @@ const timelineItems = [
     desc: [
       {
         key: "timelineItem3-desc-1",
-        text: "Worked in an Agile-driven environment to effectively maintain project timelines and utilize available resources.",
+        text: "- Worked in an Agile-driven environment to effectively maintain project timelines and utilize available resources.",
       },
       {
         key: "timelineItem3-desc-2",
-        text: "Worked and collaborated with a group of software engineers on designing, researching, testing, and maintaining software for clients, either web-based or mobile-based.",
+        text: "- Worked and collaborated with a group of software engineers on designing, researching, testing, and maintaining software for clients, either web-based or mobile-based.",
       },
     ],
   },
