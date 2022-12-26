@@ -33,51 +33,61 @@ const useStyles = makeStyles({
 const timelineItems = [
   {
     key: "timelineItem1",
-    title: "Software Developer / Blockchain Developer",
-    inst: "Stacktrek Enterprise, Iloilo City",
-    date: "July 2019 - Present",
+    title: "Blockchain Developer",
+    inst: "PowerFan.io via Stacktrek Enterprise, Iloilo City",
+    date: "February 2022 - Present",
     desc: [
       {
-        key: "timelineItem1-desc1",
-        text: "- Worked in an Agile-driven environment to effectively maintain project timelines and utilize available resources",
+        key: "timelineItem1-desc-1",
+        text: `- Successfully launched a slot machine gambling dapp with a two-level referral system which uses Chainlink for generating randomness for Solaire Resort & Casino. `,
       },
       {
-        key: "timelineItem1-desc2",
-        text: "- Worked and collaborated with a group of software engineers on designing, researching, testing, and maintaining software for clients, either web-based or mobile-based. Communicated closely with the client to give updates on the task",
-      },
-      {
-        key: "timelineItem1-desc7",
-        text: "- Write smart contracts including ERC20, ERC721 and ERC1155 specifications on Ethereum blockchain with Solidity, Hardhat, and Web3",
+        key: "timelineItem1-desc-2",
+        text: "- Worked with ZK proofs by forking the tornado cash repository and built our own cryptocurrency mixing service with a two-level referral system.",
       },
     ],
   },
   {
     key: "timelineItem2",
-    title: "Programmer",
-    inst: "Outsourcing Virtual Agents, Iloilo City",
-    date: "January 2020 - June 2020",
+    title: "Blockchain Developer",
+    inst: "PartArk of Dreams, Metaverse · Part-time",
+    date: "March 2022 - June 2022",
     desc: [
       {
-        key: "timelineItem2-desc1",
-        text: "- Wrote web scrapers to gather real estate data for lead generation",
-      },
-      {
-        key: "timelineItem2-desc2",
-        text: "- Worked on designing, building, and maintaining the company's payroll system",
+        key: "timelineItem2-desc-1",
+        text: "- Refactored smart contracts by converting them into UUPS upgradeable using the Openzeppelin library.",
       },
     ],
   },
   {
     key: "timelineItem3",
+    title: "Software Developer",
+    inst: "Stacktrek Enterprise, Iloilo City",
+    date: "July 2019 - February 2022",
+    desc: [
+      {
+        key: "timelineItem3-desc-1",
+        text: "Worked in an Agile-driven environment to effectively maintain project timelines and utilize available resources.",
+      },
+      {
+        key: "timelineItem3-desc-2",
+        text: "Worked and collaborated with a group of software engineers on designing, researching, testing, and maintaining software for clients, either web-based or mobile-based.",
+      },
+    ],
+  },
+  {
+    key: "timelineItem4",
+    title: "Web Scraping Developer / Programmer",
+    inst: "Outsourcing Virtual Agents, Iloilo City",
+    date: "January 2020 - June 2020 · Part-time",
+    desc: [],
+  },
+  {
+    key: "timelineItem5",
     title: "BS In Computer Science",
     inst: "Garcia College of Technology, Kalibo Aklan",
     date: "June 2015 - April 2019",
-    desc: [
-      {
-        key: "timelineItem3-desc1",
-        text: "- 4th Year Vice President GCT-ITE Department",
-      },
-    ],
+    desc: [],
   },
 ];
 

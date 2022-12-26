@@ -3,12 +3,11 @@ import firebaseIcon from "@iconify/icons-logos/firebase";
 import reactIcon from "@iconify/icons-logos/react";
 import fileTypeCss from "@iconify/icons-vscode-icons/file-type-css";
 import pythonIcon from "@iconify/icons-logos/python";
-import shopifyIcon from "@iconify/icons-logos/shopify";
+import typescriptIcon from "@iconify/icons-logos/typescript-icon";
 import mongodbIcon from "@iconify/icons-simple-icons/mongodb";
 import ethereum from "@iconify/icons-logos/ethereum";
 import fileTypeLightSolidity from "@iconify/icons-vscode-icons/file-type-light-solidity";
 import hardhatIcon from "@iconify/icons-logos/hardhat-icon";
-import web3js from "@iconify/icons-logos/web3js";
 
 const skillItems = [
   {
@@ -53,9 +52,9 @@ const skillItems = [
     },
   },
   {
-    key: "skill-shopify",
-    icon: shopifyIcon,
-    name: "Shopify",
+    key: "skill-typescriptIcon",
+    icon: typescriptIcon,
+    name: "Typescript",
     styles: {
       marginRight: 20,
     },
@@ -88,14 +87,6 @@ const skillItems = [
     key: "skill-hardhat",
     icon: hardhatIcon,
     name: "Hardhat",
-    styles: {
-      marginRight: 15,
-    },
-  },
-  {
-    key: "skill-web3",
-    icon: web3js,
-    name: "Web3",
     styles: {
       marginRight: 15,
     },

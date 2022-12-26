@@ -98,7 +98,8 @@ const Footer = () => {
               variant="caption"
               style={{ color: "#DCDCDC", marginBottom: 5 }}
             >
-              Design and created by me and Khryss Joy &#169; 2021
+              Design and created by me and Khryss Joy &#169;{" "}
+              {new Date().getFullYear()}
             </Typography>
 
             <Typography variant="caption" style={{ color: "#DCDCDC" }}>

@@ -14,11 +14,12 @@ html {
 }
 
 ::-webkit-scrollbar-track {
-  background: #f1f1f1; 
+  background: lightgray;
 }
- 
+
 ::-webkit-scrollbar-thumb {
   background: var(--primary);
+  border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb:hover {

@@ -65,7 +65,7 @@ const portfolioItems = [
     imgData: powerfanStaking,
     tech: "Node / Javascript / Ethereum",
     type: "Staking Platform",
-    desc: "PowerFan Staking is a multi-chain platform that incentivizes investors by providing PFAN/ETH liquidity on Uniswap",
+    desc: "PowerFan Staking is a multi-chain platform that rewards investors by staking PFAN/ETH liquidity on Uniswap",
     link: "https://powerfan.io/staking",
     imgList: [powerfanStaking1, powerfanStaking2, powerfanStaking3],
   },
@@ -76,7 +76,7 @@ const portfolioItems = [
     imgData: lazymugss,
     tech: "Shopify / Javascript",
     type: "Ecommerce Website",
-    desc: "Lazymugss is a dropshipping website of high quality self-stirring mugs with PayPal integration and realtime parcel tracker",
+    desc: "Lazymugss is a dropshipping website of self-stirring mugs with PayPal integration and realtime parcel tracker",
     link: "https://lazymugss.com",
     imgList: [lazymugss],
   },
@@ -212,7 +212,11 @@ const Portfolio = () => {
                 dynamicHeight={false}
               >
                 {portfolioItems[portfolioIndex].imgList.map((img, index) => (
-                  <img key={`portfolio-img-${index}`} src={img} style={{ minHeight: "400px" }}/>
+                  <img
+                    key={`portfolio-img-${index}`}
+                    src={img}
+                    style={{ minHeight: "400px" }}
+                  />
                 ))}
               </Carousel>
               <Box style={{ padding: "1.5em", borderTop: "2px solid black" }}>
