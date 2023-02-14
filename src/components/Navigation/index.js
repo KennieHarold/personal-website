@@ -9,14 +9,7 @@ const Navigation = () => {
   const [isShadowedNavBar, setIsShadowedNavBar] = useState(false);
   const [isTopPage, setIsTopPage] = useState(false);
 
-  const headerItems = [
-    "home",
-    "about",
-    "timeline",
-    "skills",
-    "portfolio",
-    "contact",
-  ];
+  const headerItems = ["home", "about", "timeline", "skills", "portfolio"];
 
   useEffect(() => {
     window.addEventListener("scroll", observeScrollChange);
@@ -34,7 +27,6 @@ const Navigation = () => {
     const timelineSectionId = document.getElementById("timeline");
     const skillsSectionId = document.getElementById("skills");
     const portfolioSectionId = document.getElementById("portfolio");
-    const contactSectionId = document.getElementById("contact");
 
     let section = "home";
 
@@ -60,13 +52,8 @@ const Navigation = () => {
       roundedY < portfolioSectionId.offsetTop
     ) {
       section = "skills";
-    } else if (
-      roundedY >= portfolioSectionId.offsetTop &&
-      roundedY < contactSectionId.offsetTop
-    ) {
-      section = "portfolio";
     } else {
-      section = "contact";
+      section = "portfolio";
     }
 
     if (roundedY <= 0) {
@@ -85,7 +72,6 @@ const Navigation = () => {
     const timelineSectionId = document.getElementById("timeline");
     const skillsSectionId = document.getElementById("skills");
     const portfolioSectionId = document.getElementById("portfolio");
-    const contactSectionId = document.getElementById("contact");
 
     const roundedY = Math.round(window.scrollY);
 
@@ -109,13 +95,7 @@ const Navigation = () => {
       roundedY < portfolioSectionId.offsetTop
     ) {
       setIsShadowedNavBar(true);
-    } else if (
-      roundedY > portfolioSectionId.offsetTop + 20 &&
-      roundedY < contactSectionId.offsetTop
-    ) {
-      setIsShadowedNavBar(true);
-    } else if (roundedY > contactSectionId.offsetTop + 20) {
-      setIsShadowedNavBar(true);
+    } else if (roundedY > portfolioSectionId.offsetTop + 20) {
     } else {
       setIsShadowedNavBar(false);
     }

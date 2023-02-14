@@ -6,6 +6,7 @@
   justify-content: center;
   align-items: flex-start;
   background-color: var(--body-2);
+  padding-bottom: 5rem;
 }
 
 #portfolio__grid {

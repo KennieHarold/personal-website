@@ -18,7 +18,6 @@ const App = () => {
       <Timeline />
       <Skills />
       <Portfolio />
-      <Contact />
       <Footer />
       <UnsupportedMedia />
     </div>

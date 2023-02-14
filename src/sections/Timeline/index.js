@@ -50,7 +50,7 @@ const timelineItems = [
   {
     key: "timelineItem2",
     title: "Blockchain Developer",
-    inst: "PartArk of Dreams, Metaverse · Part-time",
+    inst: "Ark of Dreams, Metaverse · Part-time",
     date: "March 2022 - June 2022",
     desc: [
       {
@@ -78,8 +78,8 @@ const timelineItems = [
   {
     key: "timelineItem4",
     title: "Web Scraping Developer / Programmer",
-    inst: "Outsourcing Virtual Agents, Iloilo City",
-    date: "January 2020 - June 2020 · Part-time",
+    inst: "Outsourcing Virtual Agents, Iloilo City · Part-time",
+    date: "January 2020 - June 2020",
     desc: [],
   },
   {
